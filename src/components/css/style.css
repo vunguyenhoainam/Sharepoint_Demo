@@ -1,0 +1,302 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 1400px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.container .form-add {
+  width: 222px;
+  height: 370px;
+  padding: 25px;
+  margin: 0px 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.container .form-add .title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.container .form-add p {
+  margin: 0px 0px 5px 0px;
+  font-weight: bold;
+}
+
+.container .form-add span {
+  color: #dc3545;
+}
+
+.container .form-add input {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 0px auto 10px auto;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #8b8181;
+}
+
+.container .form-add select {
+  display: block;
+  width: 222px;
+  padding: 10px;
+  margin: 0px auto 10px auto;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.container .form-add .btn-add {
+  display: block;
+  width: 100px;
+  padding: 5px 20px;
+  margin: 25px auto 0px auto;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #8b8181;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #91f196;
+}
+
+.container .form-add .btn-add:hover {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  background: #5ce963;
+}
+
+.container .form-main .table-main {
+  position: relative;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 800px;
+  margin: 0px auto;
+  text-align: center;
+  border-collapse: collapse;
+  line-height: 50px;
+}
+
+.container .form-main .table-main h3 {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .form-main .table-main h3 span {
+  font-size: 25px;
+  color: #dc3545;
+}
+
+.container .form-main .table-main .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .form-main .table-main .search .search-products {
+  margin: 0px 20px;
+  position: relative;
+}
+
+.container .form-main .table-main .search .search-products input {
+  width: 200px;
+  padding: 5px;
+  margin: 0px auto 10px auto;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #8b8181;
+}
+
+.container .form-main .table-main .search .search-products i {
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  padding: 6px;
+  color: #ffffff;
+  background-color: #2890ff;
+  border-radius: 5px;
+}
+
+.container .form-main .table-main .search .search-products i:hover {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  background-color: #007bff;
+}
+
+.container .form-main .table-main .search .search-price {
+  margin: 0px 20px;
+  position: relative;
+}
+
+.container .form-main .table-main .search .search-price input {
+  width: 200px;
+  padding: 5px;
+  margin: 0px auto 10px auto;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #8b8181;
+}
+
+.container .form-main .table-main .search .search-price i {
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  padding: 6px;
+  color: #ffffff;
+  background-color: #2890ff;
+  border-radius: 5px;
+}
+
+.container .form-main .table-main .search .search-price i:hover {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  background-color: #007bff;
+}
+
+.container .form-main .table-main .btn-control i {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container .form-main .table-main .btn-control .btn-edit {
+  color: #007bff;
+}
+
+.container .form-main .table-main .btn-control .btn-edit:hover {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  color: #ffffff;
+  background-color: #007bff;
+}
+
+.container .form-main .table-main .btn-control .btn-delete {
+  color: #dc3545;
+}
+
+.container .form-main .table-main .btn-control .btn-delete:hover {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  color: #ffffff;
+  background-color: #dc3545;
+}
+
+.container .form-main .table-main .popUp {
+  position: absolute;
+}
+
+.container .form-edit {
+  width: 222px;
+  height: 450px;
+  padding: 25px;
+  margin: 0px 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.container .form-edit .title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.container .form-edit p {
+  margin: 0px 0px 5px 0px;
+  font-weight: bold;
+}
+
+.container .form-edit span {
+  color: #dc3545;
+}
+
+.container .form-edit input {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 0px auto 10px auto;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #8b8181;
+}
+
+.container .form-edit select {
+  display: block;
+  width: 222px;
+  padding: 10px;
+  margin: 0px auto 10px auto;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.container .form-edit .btn {
+  width: 222px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 25px auto 0px auto;
+}
+
+.container .form-edit .btn-cancel {
+  display: block;
+  width: 80px;
+  margin: 0px;
+  padding: 5px 0px;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  border: 1px solid #8b8181;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ff8995;
+}
+
+.container .form-edit .btn-cancel:hover {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  background: #ff4b5d;
+}
+
+.container .form-edit .btn-update {
+  display: block;
+  width: 80px;
+  padding: 5px 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #8b8181;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #91f196;
+}
+
+.container .form-edit .btn-update:hover {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  background: #5ce963;
+}
+/*# sourceMappingURL=style.css.map */

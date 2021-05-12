@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    .form-add{
+        width: 222px;
+        height: 370px;
+        padding: 25px;
+        margin: 0px 20px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        background-color: #ffffff;
+        .title{
+            font-size: 30px;
+            text-align: center;
+        }
+        p{
+            margin: 0px 0px 5px 0px;
+            font-weight: bold;
+        }
+        span{
+            color: #dc3545;
+        }
+        input{
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 0px auto 10px auto;
+            font-size: 16px;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #8b8181;
+        }
+        select{
+            display: block;
+            width: 222px;
+            padding: 10px;
+            margin: 0px auto 10px auto;
+            font-size: 16px;
+            border-radius: 5px;
+            outline: none;
+        }
+        .btn-add{
+            display: block;
+            width: 100px;
+            padding: 5px 20px;
+            margin: 25px auto 0px auto;
+            font-size: 16px;
+            text-align: center;
+            border: 1px solid #8b8181;
+            border-radius: 5px;
+            cursor: pointer;
+            background: rgb(145, 241, 150);
+            &:hover{
+                transition: .3s all;
+                background: rgb(92, 233, 99);
+            }
+        }
+    }
+
+    .form-main{
+        .table-main{
+            position: relative;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            h3{
+                margin: 0px;
+                font-size: 30px;
+                font-weight: bold;
+                text-align: center;
+                span{
+                    font-size: 25px;
+                    color: #dc3545;
+                }
+            }
+            width: 800px;
+            margin: 0px auto;
+            text-align: center;
+            border-collapse: collapse;
+            line-height: 50px;
+            .search{
+                display: flex;
+                justify-content: center;
+                .search-products{
+                    margin: 0px 20px;
+                    position: relative;
+                    input{
+                        width: 200px;
+                        padding: 5px;
+                        margin: 0px auto 10px auto;
+                        font-size: 14px;
+                        border-radius: 5px;
+                        outline: none;
+                        border: 1px solid #8b8181;
+                    }
+                    i{
+                        position: absolute;
+                        top: 12px;
+                        right: 0px;
+                        padding: 6px;
+                        color: #ffffff;
+                        background-color: #2890ff;
+                        border-radius: 5px;
+                        &:hover{
+                            transition: .3s all;
+                            background-color: #007bff;
+                        }
+                    }
+                }
+                .search-price{
+                    margin: 0px 20px;
+                    position: relative;
+                    input{
+                        width: 200px;
+                        padding: 5px;
+                        margin: 0px auto 10px auto;
+                        font-size: 14px;
+                        border-radius: 5px;
+                        outline: none;
+                        border: 1px solid #8b8181;
+                    }
+                    i{
+                        position: absolute;
+                        top: 12px;
+                        right: 0px;
+                        padding: 6px;
+                        color: #ffffff;
+                        background-color: #2890ff;
+                        border-radius: 5px;
+                        &:hover{
+                            transition: .3s all;
+                            background-color: #007bff;
+                        }
+                    }
+                }
+            }
+            .btn-control{
+                i{
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+                .btn-edit{
+                    color: #007bff;
+                    &:hover{
+                        transition: .3s all;
+                        color: #ffffff;
+                        background-color: #007bff;
+                    }
+                }
+                .btn-delete{
+                    color: #dc3545;
+                    &:hover{
+                        transition: .3s all;
+                        color: #ffffff;
+                        background-color: #dc3545;
+                    }
+                }
+            }
+            .popUp{
+                position: absolute;
+            }
+        }
+    }
+
+    .form-edit{
+        width: 222px;
+        height: 450px;
+        padding: 25px;
+        margin: 0px 20px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        background-color: #ffffff;
+        .title{
+            font-size: 30px;
+            text-align: center;
+        }
+        p{
+            margin: 0px 0px 5px 0px;
+            font-weight: bold;
+        }
+        span{
+            color: #dc3545;
+        }
+        input{
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 0px auto 10px auto;
+            font-size: 16px;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #8b8181;
+        }
+        select{
+            display: block;
+            width: 222px;
+            padding: 10px;
+            margin: 0px auto 10px auto;
+            font-size: 16px;
+            border-radius: 5px;
+            outline: none;
+        }
+        .btn{
+            width: 222px;
+            display: flex;
+            justify-content: space-between;
+            margin: 25px auto 0px auto;
+            &-cancel{
+                display: block;
+                width: 80px;
+                margin: 0px;
+                padding: 5px 0px;
+                font-size: 16px;
+                font-weight: lighter;
+                text-align: center;
+                border: 1px solid #8b8181;
+                border-radius: 5px;
+                cursor: pointer;
+                background: #ff8995;
+                &:hover{
+                    transition: .3s all;
+                    background: #ff4b5d;
+                }
+            }
+            &-update{
+                display: block;
+                width: 80px;
+                padding: 5px 10px;
+                font-size: 16px;
+                text-align: center;
+                border: 1px solid #8b8181;
+                border-radius: 5px;
+                cursor: pointer;
+                background: rgb(145, 241, 150);
+                &:hover{
+                    transition: .3s all;
+                    background: rgb(92, 233, 99);
+                }
+            }
+        }
+    }
+}
